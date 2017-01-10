@@ -1,3 +1,3 @@
 generate: 
 	@echo 'Generating ...'
-	-sed -e 's~<%=name%>~$(PRJNAME)~g' template-go-dockerfile > dockerfile
+	-sed -e 's~<%=name%>~$(PRJNAME)~g' template > template-created
