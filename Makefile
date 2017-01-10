@@ -1,3 +1,3 @@
 generate: 
 	@echo 'Generating ...'
-	-sed -e 's~<%=name%>~$(PRJNAME)~g' template > template-created
+	-sed -e 's~<%=name%>~$(PRJNAME)~g' my-template > template-created
